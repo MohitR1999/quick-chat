@@ -9,6 +9,8 @@
   padding: 5%;
   width: 80%;
   font-size: 1.2em;
+  background-color: #252525;
+  color: #fff;
 }
 
 input:focus, textarea:focus, select:focus{
