@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import * as CONSTANTS from '../../config';
 import queryString from 'query-string';
 import io from "socket.io-client";
 
@@ -9,7 +10,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'http://localhost:5000/';
+const ENDPOINT = CONSTANTS.ENDPOINT;
 
 let socket;
 
